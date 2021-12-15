@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CasaDoCodigo.Migrations.AppIdentity
 {
-    [DbContext(typeof(AppIdentityContext))]
+    [DbContext(typeof(ApplicationContext))]
     partial class AppIdentityContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

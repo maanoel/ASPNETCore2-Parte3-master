@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CasaDoCodigo.Migrations.AppIdentity
 {
-    [DbContext(typeof(AppIdentityContext))]
+    [DbContext(typeof(ApplicationContext))]
     [Migration("20190517170426_Identity")]
     partial class Identity
     {
