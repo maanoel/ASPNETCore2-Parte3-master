@@ -5,19 +5,18 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Logging;
 using Serilog;
 using System;
 
 namespace CasaDoCodigo
 {
-    //DB 1): Startup
-    #region Startup
-    //Em Startup configuramos o Entity Framework
-    //para usar o banco de dados 
-    #endregion
-    public class Startup
+  //DB 1): Startup
+  #region Startup
+  //Em Startup configuramos o Entity Framework
+  //para usar o banco de dados 
+  #endregion
+  public class Startup
     {
         private readonly ILoggerFactory _loggerFactory;
 
