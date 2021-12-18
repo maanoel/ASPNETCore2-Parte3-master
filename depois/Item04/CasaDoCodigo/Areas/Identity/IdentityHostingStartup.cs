@@ -34,6 +34,9 @@ namespace CasaDoCodigo.Areas.Identity
                     options.UseSqlite(
                         context.Configuration.GetConnectionString("AppIdentityContextConnection")));
 
+
+                //Defininando a configurações de senhas para os usuários
+                //adicionado o identityuser no AddDefaultIdentity
                 services.AddDefaultIdentity<AppIdentityUser>(options =>
                     {
                         options.Password.RequireNonAlphanumeric = 
