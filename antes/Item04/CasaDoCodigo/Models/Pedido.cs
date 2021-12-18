@@ -18,8 +18,9 @@ namespace CasaDoCodigo.Models
     //TAREFA 03: ADICIONAR MIGRAÇÃO
     //TAREFA 04: APLICAR MIGRAÇÃO
 
-    public Pedido(Cadastro cadastro)
+    public Pedido(string clientId, Cadastro cadastro)
     {
+      ClienteId = clientId;
       Cadastro = cadastro;
     }
 
