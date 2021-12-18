@@ -66,6 +66,7 @@ namespace CasaDoCodigo.Controllers
 
       var usuario = await userManager.GetUserAsync(this.User);
       pedido.Cadastro.Email = usuario.Email;
+
       return View(pedido.Cadastro);
     }
 
