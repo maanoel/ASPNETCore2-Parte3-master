@@ -13,6 +13,12 @@ namespace CasaDoCodigo.Models
       Cadastro = new Cadastro();
     }
 
+    public Pedido(string clienteId)
+    {
+      Cadastro = new Cadastro();
+      ClienteId = clienteId;
+    }
+
     //TAREFA 02: CRIAR CONSTRUTOR COM ID DO CLIENTE
 
     //TAREFA 03: ADICIONAR MIGRAÇÃO
